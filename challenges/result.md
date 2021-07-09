@@ -164,3 +164,16 @@ sudo systemctl start cloudera-scm-server
 http://15.165.142.171:7180/cmf/login
 ![image](https://user-images.githubusercontent.com/7609848/125032389-dbc2f480-e0c8-11eb-9e8d-cce70ff4eba7.png)
 
+hdfs
+yarn
+sqoop
+hive
+impala
+
+http://ec2-3-34-114-205.ap-northeast-2.compute.amazonaws.com/cloudera-parcels/cdh5/5.16.2/
+![image](https://user-images.githubusercontent.com/7609848/125033877-debee480-e0ca-11eb-9a0f-c59d11c68fec.png)
+![image](https://user-images.githubusercontent.com/7609848/125035659-0e6eec00-e0cd-11eb-8006-23a6f8fe3015.png)
+![image](https://user-images.githubusercontent.com/7609848/125035767-2e061480-e0cd-11eb-91f5-59bdad5f83e3.png)
+
+
+
