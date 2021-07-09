@@ -186,5 +186,22 @@ create user 'training'@'%' identified by 'training';
 GRANT ALL ON test.* TO 'training'@'%' IDENTIFIED BY 'training';
 ![image](https://user-images.githubusercontent.com/7609848/125037692-6870b100-e0cf-11eb-9453-503936213597.png)
 
-
+1
 ![image](https://user-images.githubusercontent.com/7609848/125041040-44af6a00-e0d3-11eb-9fb2-958f681dad9f.png)
+2
+![image](https://user-images.githubusercontent.com/7609848/125043742-3878dc00-e0d6-11eb-9b95-62bd6149d99a.png)
+3.
+![image](https://user-images.githubusercontent.com/7609848/125044782-4418d280-e0d7-11eb-9164-4406560d71d6.png)
+4.
+![image](https://user-images.githubusercontent.com/7609848/125045742-492a5180-e0d8-11eb-93c6-ddf9a3aa9a00.png)
+![image](https://user-images.githubusercontent.com/7609848/125046811-5431b180-e0d9-11eb-8b8c-91d487624946.png)
+![image](https://user-images.githubusercontent.com/7609848/125046963-76c3ca80-e0d9-11eb-9e0c-30c4d7471c26.png)
+
+5.
+![image](https://user-images.githubusercontent.com/7609848/125047714-34e75400-e0da-11eb-90a5-7da026f1c5ff.png)
+
+
+
+
+
+
