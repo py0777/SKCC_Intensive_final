@@ -173,7 +173,18 @@ impala
 http://ec2-3-34-114-205.ap-northeast-2.compute.amazonaws.com/cloudera-parcels/cdh5/5.16.2/
 ![image](https://user-images.githubusercontent.com/7609848/125033877-debee480-e0ca-11eb-9a0f-c59d11c68fec.png)
 ![image](https://user-images.githubusercontent.com/7609848/125035659-0e6eec00-e0cd-11eb-8006-23a6f8fe3015.png)
+Make sure that the following services (and any necessary services to
+install that service) are installed
 ![image](https://user-images.githubusercontent.com/7609848/125035767-2e061480-e0cd-11eb-91f5-59bdad5f83e3.png)
+In you cluster, create a user named “training” with password “training”
+![image](https://user-images.githubusercontent.com/7609848/125036012-7a515480-e0cd-11eb-9b3c-ceab1bf592b5.png)
 
 
+#2
+CREATE DATABASE test DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+create user 'training'@'%' identified by 'training';
+GRANT ALL ON test.* TO 'training'@'%' IDENTIFIED BY 'training';
+![image](https://user-images.githubusercontent.com/7609848/125037692-6870b100-e0cf-11eb-9453-503936213597.png)
 
+
+![image](https://user-images.githubusercontent.com/7609848/125041040-44af6a00-e0d3-11eb-9fb2-958f681dad9f.png)
