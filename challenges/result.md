@@ -201,6 +201,10 @@ GRANT ALL ON test.* TO 'training'@'%' IDENTIFIED BY 'training';
 ![image](https://user-images.githubusercontent.com/7609848/125047714-34e75400-e0da-11eb-90a5-7da026f1c5ff.png)
 
 
+6.
+![image](https://user-images.githubusercontent.com/7609848/125048255-b0e19c00-e0da-11eb-9d7a-1b1f8d75590e.png)
+7.
+![image](https://user-images.githubusercontent.com/7609848/125048943-64e32700-e0db-11eb-9bb4-eabf2e6ba2e6.png)
 
 
 
