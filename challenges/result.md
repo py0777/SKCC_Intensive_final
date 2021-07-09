@@ -143,4 +143,24 @@ database server
 ![image](https://user-images.githubusercontent.com/7609848/125030023-6e619480-e0c5-11eb-96fd-df76b18da018.png)
 
 
+sudo vi /etc/yum.repos.d/cloudera-nanager.repo
+
+[cloudera-manager]
+```
+# Packages for Cloudera Manager, Version 5, on RedHat or CentOS 7 x86_64
+name=Cloudera Manager
+baseurl=http://ec2-3-34-114-205.ap-northeast-2.compute.amazonaws.com/cloudera-repos/cdh5/5.16.2/
+gpgkey =http://ec2-3-34-114-205.ap-northeast-2.compute.amazonaws.com/cloudera-repos/cdh5/5.16.2/RPM-GPG-KEY-cloudera
+gpgcheck = 1
+```
+sudo yum install cloudera-manager-daemons cloudera-manager-agent cloudera-manager-server
+sudo rpm --import http://ec2-3-34-114-205.ap-northeast-2.compute.amazonaws.com/cloudera-repos/cdh5/5.16.2/RPM-GPG-KEY-cloudera
+
+cloudera manager server
+sudo yum install cloudera-manager-daemons cloudera-manager-agent cloudera-manager-server
+sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql scm scm scm
+
+sudo systemctl start cloudera-scm-server
+http://15.165.142.171:7180/cmf/login
+![image](https://user-images.githubusercontent.com/7609848/125032389-dbc2f480-e0c8-11eb-9e8d-cce70ff4eba7.png)
 
