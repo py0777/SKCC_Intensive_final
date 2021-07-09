@@ -188,10 +188,13 @@ GRANT ALL ON test.* TO 'training'@'%' IDENTIFIED BY 'training';
 
 1
 ![image](https://user-images.githubusercontent.com/7609848/125041040-44af6a00-e0d3-11eb-9fb2-958f681dad9f.png)
+
 2
+
 ![image](https://user-images.githubusercontent.com/7609848/125043742-3878dc00-e0d6-11eb-9b95-62bd6149d99a.png)
 3.
 ![image](https://user-images.githubusercontent.com/7609848/125044782-4418d280-e0d7-11eb-9164-4406560d71d6.png)
+
 4.
 ![image](https://user-images.githubusercontent.com/7609848/125045742-492a5180-e0d8-11eb-93c6-ddf9a3aa9a00.png)
 ![image](https://user-images.githubusercontent.com/7609848/125046811-5431b180-e0d9-11eb-8b8c-91d487624946.png)
@@ -203,6 +206,7 @@ GRANT ALL ON test.* TO 'training'@'%' IDENTIFIED BY 'training';
 
 6.
 ![image](https://user-images.githubusercontent.com/7609848/125048255-b0e19c00-e0da-11eb-9d7a-1b1f8d75590e.png)
+
 7.
 ![image](https://user-images.githubusercontent.com/7609848/125048943-64e32700-e0db-11eb-9bb4-eabf2e6ba2e6.png)
 
